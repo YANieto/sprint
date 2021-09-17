@@ -1,0 +1,56 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;    
+    
+}
+    
+body {
+    background: whitesmoke;
+    width:100%;
+    content:'';        
+
+}
+
+    #nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    position:fixed;
+    z-index: 100;
+    overflow: scroll;
+    } 
+
+    #nav ul li {
+    float: left;
+    background: rgb(107, 107, 107);
+    
+
+    }
+
+    #nav a {
+    color:white;
+    text-decoration:none;
+    display: block;
+    padding: 0 25px;
+    font-family: 'calibri';
+    font-size: 20px;
+
+
+    }
+
+    #nav a:hover {
+    color: white;
+    background-color: blue;
+
+    }
+
+    .Barra{
+        color: rgb(107, 107, 107);
+        padding: 10px 0 0 0;
+
+    }
+
+
+
